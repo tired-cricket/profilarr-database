@@ -1,0 +1,30 @@
+base_profile:
+  upgradesAllowed: true
+  minCustomFormatScore: 0
+  upgradeUntilScore: 10000
+  minScoreIncrement: 1
+  custom_formats:
+    Preferred Groups: 60
+    x265: 50
+    Season Pack: 10
+  custom_formats_radarr: []
+  custom_formats_sonarr: []
+
+quality_order:
+  - 2160p
+  - 1080p
+  - 720p
+  - 480p
+  - DVD
+  - SDTV
+
+variants:
+  Original Language:
+    custom_formats:
+    override:
+      language: must_original
+
+  Dublado (PT-BR):
+    custom_formats:
+      PT-BR Dual Audio: 210
+      PT-BR Dub: 200

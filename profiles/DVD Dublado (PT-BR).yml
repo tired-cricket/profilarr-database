@@ -1,0 +1,30 @@
+name: DVD Dublado (PT-BR)
+description: This profile allows quality up to DVD.
+tags:
+- Dublado (PT-BR)
+- DVD
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats:
+- name: Preferred Groups
+  score: 60
+- name: x265
+  score: 50
+- name: Season Pack
+  score: 10
+- name: PT-BR Dual Audio
+  score: 210
+- name: PT-BR Dub
+  score: 200
+custom_formats_radarr: []
+custom_formats_sonarr: []
+qualities:
+- id: 22
+  name: DVD
+- id: 24
+  name: SDTV
+upgrade_until:
+  id: 22
+  name: DVD

@@ -1,0 +1,11 @@
+name: Preferred Groups
+description: Groups I want.
+tags:
+- Custom
+conditions:
+- name: Dorama Groups
+  negate: false
+  pattern: Dorama Groups
+  required: false
+  type: release_group
+tests: []

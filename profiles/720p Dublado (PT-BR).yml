@@ -1,0 +1,52 @@
+name: 720p Dublado (PT-BR)
+description: This profile allows quality up to 720p.
+tags:
+- Dublado (PT-BR)
+- 720p
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats:
+- name: Preferred Groups
+  score: 60
+- name: x265
+  score: 50
+- name: Season Pack
+  score: 10
+- name: PT-BR Dual Audio
+  score: 210
+- name: PT-BR Dub
+  score: 200
+custom_formats_radarr: []
+custom_formats_sonarr: []
+qualities:
+- id: -3
+  name: 720p
+  description: ''
+  qualities:
+  - id: 15
+    name: WEBRip-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 16
+    name: HDTV-720p
+  - id: 13
+    name: Bluray-720p
+- id: -4
+  name: 480p
+  description: ''
+  qualities:
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+  - id: 18
+    name: Bluray-480p
+- id: 22
+  name: DVD
+- id: 24
+  name: SDTV
+upgrade_until:
+  id: -3
+  name: 720p

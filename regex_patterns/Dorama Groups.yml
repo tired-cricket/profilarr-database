@@ -1,0 +1,6 @@
+name: Dorama Groups
+pattern: ^(MagicStar)$
+description: 'Dorama Groups with japanese subs'
+tags:
+- Release Group
+tests: []

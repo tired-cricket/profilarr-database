@@ -1,0 +1,25 @@
+name: SDTV Original Language
+description: This profile allows quality up to SDTV.
+tags:
+- Original Language
+- SDTV
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats:
+- name: Preferred Groups
+  score: 60
+- name: x265
+  score: 50
+- name: Season Pack
+  score: 10
+custom_formats_radarr: []
+custom_formats_sonarr: []
+qualities:
+- id: 24
+  name: SDTV
+upgrade_until:
+  id: 24
+  name: SDTV
+language: must_original
