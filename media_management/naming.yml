@@ -11,7 +11,7 @@ sonarr:
   animeEpisodeFormat: '{Series TitleYear} - S{season:00}E{episode:00} - {absolute:000} {[Custom Formats]}{[Quality Full]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{MediaInfo AudioLanguages}{[MediaInfo VideoDynamicRangeType]}[{Mediainfo VideoCodec }{MediaInfo VideoBitDepth}bit]{-Release Group}'
   seriesFolderFormat: '{Series TitleYear}'
   seasonFolderFormat: 'Season {season:00}'
-  replaceIllegalCharacters: false
+  replaceIllegalCharacters: true
   colonReplacementFormat: 4
   customColonReplacementFormat: ''
   multiEpisodeStyle: 5
