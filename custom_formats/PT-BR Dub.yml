@@ -6,7 +6,7 @@ conditions:
   negate: false
   pattern: PT-BR Dub Release
   required: true
-  type: release_group
+  type: release_title
 - name: PT-BR Audio Groups
   negate: false
   pattern: PT-BR Audio Groups
