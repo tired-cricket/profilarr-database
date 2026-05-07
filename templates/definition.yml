@@ -7,6 +7,8 @@ base_profile:
     Preferred Groups: 60
     x265: 50
     Season Pack: 10
+    VOSTFR: -10000
+    Dubs Only: -10000
   custom_formats_radarr: []
   custom_formats_sonarr: []
 
