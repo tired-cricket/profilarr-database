@@ -14,6 +14,8 @@ custom_formats:
   score: 50
 - name: Season Pack
   score: 10
+- name: VOSTFR
+  score: -10
 - name: PT-BR Dual Audio
   score: 210
 - name: PT-BR Dub

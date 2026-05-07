@@ -1,0 +1,15 @@
+name: PT-BR Dub
+description: For matching releases with PT-BR Dub
+tags:
+conditions:
+- name: PT-BR Dubbed Release
+  negate: false
+  pattern: PT-BR Dubbed Release
+  required: true
+  type: release_group
+- name: PT-BR Audio Groups
+  negate: false
+  pattern: PT-BR Audio Groups
+  required: true
+  type: release_group
+tests: []

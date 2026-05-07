@@ -1,0 +1,4 @@
+name: PT-BR Dual Audio Release
+pattern: \b(BRAZILIAN-DUAL-AUDIO|DUAL)\b
+description: ''
+tags: []

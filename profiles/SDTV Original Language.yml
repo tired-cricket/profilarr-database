@@ -15,7 +15,7 @@ custom_formats:
 - name: Season Pack
   score: 10
 - name: VOSTFR
-  score: -10000
+  score: -10
 - name: Dubs Only
   score: -10000
 custom_formats_radarr: []
