@@ -2,9 +2,9 @@ name: PT-BR Dub
 description: For matching releases with PT-BR Dub
 tags:
 conditions:
-- name: PT-BR Dubbed Release
+- name: PT-BR Dub Release
   negate: false
-  pattern: PT-BR Dubbed Release
+  pattern: PT-BR Dub Release
   required: true
   type: release_group
 - name: PT-BR Audio Groups

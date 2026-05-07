@@ -2,9 +2,9 @@ name: PT-BR Dual Audio
 description: For matching releases with Dual Audio containing PT-BR
 tags:
 conditions:
-- name: PT-BR Audio Release
+- name: PT-BR Dual Audio Release
   negate: false
-  pattern: PT-BR Audio Release
+  pattern: PT-BR Dual Audio Release
   required: true
   type: release_group
 - name: PT-BR Audio Groups
