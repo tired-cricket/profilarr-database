@@ -1,0 +1,13 @@
+name: Not Free100
+description: Matches releases without 100% Freeleech
+tags:
+- Freeleech
+- Tweak
+- Flag
+conditions:
+- flag: freeleech
+  name: Free100
+  negate: true
+  required: true
+  type: indexer_flag
+tests: []

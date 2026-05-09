@@ -18,6 +18,8 @@ custom_formats:
   score: 10
 - name: VOSTFR
   score: -10
+- name: Not Free100
+  score: -11
 - name: PT-BR Bad Groups
   score: -10000
 - name: Dubs Only

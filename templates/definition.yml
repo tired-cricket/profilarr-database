@@ -24,6 +24,7 @@ variants:
   Original Language:
     custom_formats:
       PT-BR Dual Audio: 11
+      Not Free100: -11  # Match dual audio score so they cancel
       Dubs Only: -10000
     override:
       language: must_original
