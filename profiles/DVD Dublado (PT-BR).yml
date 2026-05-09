@@ -8,14 +8,14 @@ minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
+- name: PT-BR Dual Audio
+  score: 2010
+- name: PT-BR Dub
+  score: 2000
 - name: Preferred Groups
   score: 1000
 - name: x265
   score: 500
-- name: PT-BR Dual Audio
-  score: 210
-- name: PT-BR Dub
-  score: 200
 - name: Season Pack
   score: 10
 - name: VOSTFR
