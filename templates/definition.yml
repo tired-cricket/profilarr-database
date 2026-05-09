@@ -4,10 +4,12 @@ base_profile:
   upgradeUntilScore: 10000
   minScoreIncrement: 1
   custom_formats:
-    Preferred Groups: 60
-    x265: 50
+    Preferred Groups: 1000
+    x265: 500
+    PT-BR Dual Audio: 11
     Season Pack: 10
     VOSTFR: -10
+    PT-BR Bad Groups: -10000
   custom_formats_radarr: []
   custom_formats_sonarr: []
 

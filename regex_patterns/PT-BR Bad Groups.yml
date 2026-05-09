@@ -1,0 +1,4 @@
+name: PT-BR Bad Groups
+pattern: ^(ASM|DRENAN|CaNNIBal|S74Ll10n)$
+description: ''
+tags: []

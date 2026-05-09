@@ -9,13 +9,17 @@ upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
 - name: Preferred Groups
-  score: 60
+  score: 1000
 - name: x265
-  score: 50
+  score: 500
+- name: PT-BR Dual Audio
+  score: 11
 - name: Season Pack
   score: 10
 - name: VOSTFR
   score: -10
+- name: PT-BR Bad Groups
+  score: -10000
 - name: Dubs Only
   score: -10000
 custom_formats_radarr: []

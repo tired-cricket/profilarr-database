@@ -1,0 +1,10 @@
+name: PT-BR Bad Groups
+description: Bad Groups.
+tags:
+conditions:
+- name: PT-BR Bad Groups
+  negate: false
+  pattern: PT-BR Bad Groups
+  required: true
+  type: release_group
+tests: []
