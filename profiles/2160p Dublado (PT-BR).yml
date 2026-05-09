@@ -14,14 +14,14 @@ custom_formats:
   score: 500
 - name: PT-BR Dual Audio
   score: 210
+- name: PT-BR Dub
+  score: 200
 - name: Season Pack
   score: 10
 - name: VOSTFR
   score: -10
 - name: PT-BR Bad Groups
   score: -10000
-- name: PT-BR Dub
-  score: 200
 custom_formats_radarr: []
 custom_formats_sonarr: []
 qualities:

@@ -26,7 +26,7 @@ def build_custom_formats(base_cf, variant_cf):
     merged = merge_dict(base_cf, variant_cf)
     return [
         {"name": name, "score": score}
-        for name, score in merged.items()
+        for name, score in sorted(merged.items(), key=lambda x: x[1], reverse=True)
     ]
 
 

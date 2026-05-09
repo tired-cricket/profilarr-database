@@ -6,7 +6,6 @@ base_profile:
   custom_formats:
     Preferred Groups: 1000
     x265: 500
-    PT-BR Dual Audio: 11
     Season Pack: 10
     VOSTFR: -10
     PT-BR Bad Groups: -10000
@@ -24,6 +23,7 @@ quality_order:
 variants:
   Original Language:
     custom_formats:
+      PT-BR Dual Audio: 11
       Dubs Only: -10000
     override:
       language: must_original
