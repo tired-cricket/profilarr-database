@@ -1,4 +1,4 @@
 name: PT-BR Dub Release
-pattern: (?i)\b(dublado|NACIONAL|dub(bed)?|brasil[-\s]dub|audio[-\s]pt[-\s]?br)\b
+pattern: (?i)\b(dublado|NACIONAL|dub(bed)?[-\s]pt[-\s]?br|brasil[-\s]dub|audio[-\s]pt[-\s]?br)\b
 description: ''
 tags: []

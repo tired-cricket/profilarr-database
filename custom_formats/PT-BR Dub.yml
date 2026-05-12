@@ -10,6 +10,6 @@ conditions:
 - name: PT-BR Audio Groups
   negate: false
   pattern: PT-BR Audio Groups
-  required: true
+  required: false
   type: release_group
 tests: []
