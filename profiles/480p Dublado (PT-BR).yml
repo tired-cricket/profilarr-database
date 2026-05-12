@@ -12,6 +12,8 @@ custom_formats:
   score: 2010
 - name: PT-BR Dub
   score: 2000
+- name: PT-BR Dub (Groups)
+  score: 2000
 - name: Preferred Groups
   score: 1000
 - name: x265

@@ -1,4 +1,4 @@
-name: PT-BR Dub
+name: PT-BR Dub (Groups)
 description: For matching releases with PT-BR Dub
 tags:
 conditions:
@@ -8,8 +8,8 @@ conditions:
   required: true
   type: release_title
 - name: PT-BR Audio Groups
-  negate: true
+  negate: false
   pattern: PT-BR Audio Groups
-  required: true
+  required: false
   type: release_group
 tests: []
